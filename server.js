@@ -16,7 +16,7 @@ server.use(methodOverride());
 
 var config = {
     port: process.env.OPENSHIFT_NODEJS_PORT || 8080,
-    address: process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
+    address: process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1',
     mongo: {
         conn: 'mongodb://localhost/',
         name: 'na'
