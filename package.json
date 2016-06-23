@@ -11,4 +11,8 @@
     "mongoose"       : "^4.4.12",
     "morgan"         : "^1.1.1"
   }
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js"
 }
